@@ -16,21 +16,13 @@ const ChangeColor = () => {
             setUIcolor(color);
         }, 2000);
     }
-
-    // useEffect(() => {
-    //     if (isLoading) {
-    //         // document.body.classList.add('blur');
-    //     } else {
-    //         // document.body.classList.remove('blur');
-    //     }
-    // }, [isLoading]);
+ 
 
   return (
     <div>
-        <div className='color-box'
-        style={{backgroundColor: UIcolor}}> 
+        <div className={`color-box ${isLoading ? 'blur' : ''}`}
+        style={{backgroundColor: UIcolor}}></div>
 
-        </div>
         <div className={isLoading ? 'blur' : ''}>
             <CallbackColor getColor={getColor} isLoading={isLoading} />
         </div>
