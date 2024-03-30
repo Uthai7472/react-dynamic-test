@@ -10,7 +10,7 @@ const Navigation = () => {
 
         <ul>
           <Link to="/change-color">Color Game</Link>
-          <li href="#">Location</li>
+          <Link to="/toggle-show-hide">Toggle Show</Link>
           <li href="#">About</li>
           <li href="#">Contact</li>
         </ul>
