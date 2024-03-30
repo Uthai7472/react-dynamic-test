@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 108px;
+    line-height: 108px;
+    font-weight: 800;
+    max-height: 306px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: ;
+    border: 1px solid red;
+}
+
+.hero-content {
+    max-width: 595px;
+    height: calc(100vh - 72px);
+    /* border: 1px solid red; */
+}
